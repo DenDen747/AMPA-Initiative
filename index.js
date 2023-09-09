@@ -15,6 +15,6 @@ app.get('/our-team', (req, res) => {
   res.sendFile(path.join(__dirname, 'our-team.html'));
 })
 
-app.listen(process.env.PORT || 85, () => {
+app.listen(process.env.PORT || 2500, () => {
   console.log('Webserver started.');
 });
